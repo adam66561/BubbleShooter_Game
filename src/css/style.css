@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+#scoreDiv{
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    color: white;
+    z-index: 2;
+    font-size: 2rem;
+}
+
+#startGameDiv{
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    top: calc(50% - 100px); 
+    left: calc(50% - 250px); 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+
+}
+
+#startGameDiv h1{
+    text-align: center;
+    width: auto;
+    font-size: 4rem;
+}
+
+#startGameDiv p{
+    text-align: center;
+    width: auto;
+    font-size: 2rem;
+}
+
+button{
+    min-height: 50px;
+    border-radius: 30px;
+    margin: 10px;
+    width: auto;
+    background-color: rgb(159, 159, 233);
+    font-size: 1rem;
+
+}
+button:hover{
+    background-color: rgb(133, 133, 187);
+    cursor: pointer;
+}
